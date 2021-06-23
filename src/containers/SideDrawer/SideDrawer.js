@@ -38,11 +38,11 @@ export class SideDrawer extends Component {
               </NavigationItem>
               <NavigationItem>
                 <a
-                  href="https://github.com/AbdelrahmanSE/home-automation-ui"
+                  href="https://www.gazellecreektechnologies.co.za/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Github
+                  Website
                 </a>
               </NavigationItem>
             </Navigation>

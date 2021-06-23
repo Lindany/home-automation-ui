@@ -20,7 +20,7 @@ export class Header extends Component {
     return (
       <header className={classes.Header}>
         <div className={classes.HeaderContainer}>
-          <div className={classes.AppName}>Home Automation UI</div>
+          <div className={classes.AppName}>Home Automation</div>
           <div className={classes.Navigation}>
             <Navigation>
               <NavigationItem>
@@ -28,11 +28,11 @@ export class Header extends Component {
               </NavigationItem>
               <NavigationItem>
                 <a
-                  href="https://github.com/AbdelrahmanSE/home-automation-ui"
+                  href="https://www.gazellecreektechnologies.co.za/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Github
+                  GCT Website
                 </a>
               </NavigationItem>
             </Navigation>
