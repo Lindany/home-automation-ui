@@ -11,8 +11,6 @@ import uiReducers from "./store/ui/ui.reducers";
 import fontawesomeIcons from "./utils/fontawesome.icons";
 import App from "./App";
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
-import reportWebVitals from './reportWebVitals';
-
 import "./styles/style.scss";
 
 /**
@@ -58,5 +56,3 @@ ReactDOM.render(app, document.getElementById("root"));
 // Learn more about service workers: https://cra.link/PWA
 // serviceWorkerRegistration.unregister();
 serviceWorkerRegistration.register();
-
-reportWebVitals(console.log);
