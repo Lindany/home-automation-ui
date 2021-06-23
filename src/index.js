@@ -8,9 +8,10 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import roomsReducers from "./store/rooms/rooms.reducers";
 import devicesReducers from "./store/devices/devices.reducers";
 import uiReducers from "./store/ui/ui.reducers";
-import * as serviceWorker from "./serviceWorker";
 import fontawesomeIcons from "./utils/fontawesome.icons";
 import App from "./App";
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
+import reportWebVitals from './reportWebVitals';
 
 import "./styles/style.scss";
 
@@ -51,7 +52,11 @@ const app = (
 
 ReactDOM.render(app, document.getElementById("root"));
 
+
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.register();
+// Learn more about service workers: https://cra.link/PWA
+// serviceWorkerRegistration.unregister();
+serviceWorkerRegistration.register();
+
+reportWebVitals(console.log);
